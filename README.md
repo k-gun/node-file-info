@@ -20,7 +20,7 @@ var info = fileInfo(__filename);
 // var info = fileInfo("/home/kerem/.bashrc");
 console.log(info);
 
-// var info = fileInfo("none");
+var info = fileInfo("none");
 // console.log(info); // undefined
 ```
 
