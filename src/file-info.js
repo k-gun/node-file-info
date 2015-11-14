@@ -70,4 +70,7 @@ function fileInfo(file) {
     };
 }
 
+/**
+ * Expose module.
+ */
 module.exports = fileInfo;
