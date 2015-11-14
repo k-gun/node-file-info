@@ -44,7 +44,7 @@ function fileInfo(file) {
         extension = file.substr(i + 1);
     }
 
-    // run a shell command
+    // run a shell command that gets file info
     var ret = execSync("file -i '"+ file +"' | awk '{print $2} {print $3}'");
     if (ret == "") {
         return;
@@ -52,7 +52,7 @@ function fileInfo(file) {
 
     ret = ret.trim().split("\n");
     if (ret.length == 2) {
-        // remove comma
+        // detect mime removing comma-end
         mime = (ret[0].lastIndexOf(";") > -1)
             ? ret[0].trim().substr(0, ret[0].length - 1) : ret[0];
         // detect charset
