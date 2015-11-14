@@ -48,6 +48,7 @@ function fileInfo(file) {
         charset = ret[1].trim().split("=")[1];
     }
 
+    // return stack!
     return {
         name: name,
         directory: directory,
