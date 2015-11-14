@@ -6,9 +6,20 @@
  *    <http://opensource.org/licenses/MIT>
  */
 
+/**
+ * Module objects.
+ * @private
+ */
 var fs = require("fs");
 var execSync = require("qeremy-exec-sync");
 
+/**
+ * File info.
+ * @public
+ *
+ * @param  {String} file
+ * @return {Object}
+ */
 function fileInfo(file) {
     var stat;
 
