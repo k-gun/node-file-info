@@ -1,3 +1,11 @@
+/**
+ * Copyright (c) 2015 Kerem Güneş
+ *    <http://qeremy.com>
+ *
+ * The MIT License
+ *    <http://opensource.org/licenses/MIT>
+ */
+
 var fs = require("fs");
 var execSync = require("qeremy-exec-sync");
 
