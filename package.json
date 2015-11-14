@@ -21,7 +21,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/qeremy/file-info/issues"
+    "url": "https://github.com/qeremy/node-file-info/issues"
   },
   "directories": {
     "test": "test"
