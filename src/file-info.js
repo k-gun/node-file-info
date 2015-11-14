@@ -18,7 +18,7 @@ var execSync = require("qeremy-exec-sync");
  * @public
  *
  * @param  {String} file
- * @return {Object}
+ * @return {Object|void}
  */
 function fileInfo(file) {
     var stat;
