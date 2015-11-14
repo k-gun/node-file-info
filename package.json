@@ -1,7 +1,7 @@
 {
   "name": "qeremy-file-info",
   "version": "1.0.0",
-  "description": "File info like PHP's finfo.",
+  "description": "File info like PHP's finfo for Node.js.",
   "license": "MIT",
   "author": "Kerem Güneş <qeremy@gmail.com>",
   "homepage": "http://qeremy.com",
