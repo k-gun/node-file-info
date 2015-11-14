@@ -22,7 +22,6 @@ console.log(info);
 
 // var info = fileInfo("none");
 // console.log(info); // undefined
-
 ```
 
 ## Sample Result
