@@ -5,13 +5,13 @@ File info like PHP's finfo but containing native Node.js file stat.
 ## Install
 
 ```sh
-$~ npm install qeremy-file-info
+$~ npm install k-gun-fileinfo
 ```
 
 ## Usage
 
 ```js
-var fileInfo = require("qeremy-file-info");
+var fileInfo = require("k-gun-fileinfo");
 
 var info = fileInfo(__filename);
 // var info = fileInfo("./test.js");

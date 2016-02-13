@@ -1,33 +1,7 @@
 {
-  "name": "qeremy-file-info",
-  "version": "1.0.0",
+  "name": "k-gun-fileinfo",
+  "version": "1.0.1",
   "description": "File info like PHP's finfo for Node.js.",
-  "license": "MIT",
-  "author": "Kerem Güneş <qeremy@gmail.com>",
-  "homepage": "http://qeremy.com",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/qeremy/node-file-info.git"
-  },
-  "keywords": [
-    "fileInfo",
-    "file-info"
-  ],
-  "engines": {
-    "node": ">= 0.10.25"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/qeremy/node-file-info/issues"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {
-    "qeremy-exec-sync": "^1.0.2"
-  },
-  "devDependencies": {}
+  "author": "Kerem Güneş <k-gun@mail.com>",
+  "license": "MIT"
 }
