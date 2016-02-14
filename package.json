@@ -1,7 +1,16 @@
 {
-  "name": "k-gun-fileinfo",
-  "version": "1.0.1",
-  "description": "File info like PHP's finfo for Node.js.",
-  "author": "Kerem Güneş <k-gun@mail.com>",
-  "license": "MIT"
+   "name": "k-gun-fileinfo",
+   "version": "1.0.2",
+   "description": "File info like PHP's finfo for Node.js.",
+   "homepage": "http://github.com/k-gun/node-file-info",
+   "license": "MIT",
+   "authors": [{
+      "name": "Kerem Güneş",
+      "email": "k-gun@mail.com"
+   }],
+   "repository": {
+      "type": "git",
+      "url": "git://github.com/k-gun/node-file-info.git"
+   },
+   "keywords": ["file", "file info", "file mime"]
 }
